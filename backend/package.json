@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -e ts --exec \"rimraf ./build && tsc && node build/index.js\""
+    "dev": "nodemon -e ts --exec \"rimraf ./build && tsc && node build/index.js\"",
+    "lint": "eslint --ext .ts src"
   },
   "author": "",
   "license": "ISC",
